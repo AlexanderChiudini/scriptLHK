@@ -1,0 +1,468 @@
+PARAMETER_FILE = temp/093573m4o1s86a98q61j.txt
+Reading PROBLEM_FILE: "/home/usuario/eclipse-workspace/scriptLHK/tsp/arvore.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+# EDGE_FILE =
+EXCESS = 0.0037037
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 135
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 270
+MAX_TRIALS = 270
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = /home/usuario/eclipse-workspace/scriptLHK/tsp/arvore.tsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5
+SUBSEQUENT_PATCHING = YES
+TIME_LIMIT = 10.0
+# TOUR_FILE = 
+TRACE_LEVEL = 2
+
+Creating candidates ...
+Generating candidates ... done
+Cand.min = 50, Cand.avg = 56.8, Cand.max = 68
+Subgradient optimization ...
+  T = 100, Period = 135, BestW = 361.0, BestNorm = 114
+  T = 37, Period = 67, BestW = 361.0, BestNorm = 114
+* T = 37, Period = 67, P = 5, BestW = 361.3, BestNorm = 166
+  T = 18, Period = 33, BestW = 361.3, BestNorm = 166
+* T = 18, Period = 33, P = 1, BestW = 364.7, BestNorm = 154
+* T = 18, Period = 33, P = 2, BestW = 369.3, BestNorm = 206
+* T = 18, Period = 33, P = 3, BestW = 370.3, BestNorm = 198
+* T = 18, Period = 33, P = 4, BestW = 371.4, BestNorm = 174
+* T = 18, Period = 33, P = 6, BestW = 372.9, BestNorm = 206
+* T = 18, Period = 33, P = 7, BestW = 373.4, BestNorm = 192
+* T = 18, Period = 33, P = 9, BestW = 374.4, BestNorm = 256
+* T = 18, Period = 33, P = 22, BestW = 374.9, BestNorm = 196
+  T = 9, Period = 16, BestW = 374.9, BestNorm = 196
+* T = 9, Period = 16, P = 1, BestW = 376.2, BestNorm = 172
+* T = 9, Period = 16, P = 2, BestW = 378.9, BestNorm = 118
+* T = 9, Period = 16, P = 3, BestW = 379.6, BestNorm = 134
+* T = 9, Period = 16, P = 4, BestW = 381.2, BestNorm = 152
+* T = 9, Period = 16, P = 5, BestW = 381.6, BestNorm = 182
+  T = 4, Period = 8, BestW = 381.6, BestNorm = 182
+* T = 4, Period = 8, P = 1, BestW = 382.5, BestNorm = 136
+* T = 4, Period = 8, P = 2, BestW = 383.4, BestNorm = 158
+* T = 4, Period = 8, P = 3, BestW = 383.9, BestNorm = 146
+* T = 4, Period = 8, P = 4, BestW = 384.3, BestNorm = 130
+* T = 4, Period = 8, P = 5, BestW = 384.3, BestNorm = 166
+* T = 4, Period = 8, P = 6, BestW = 384.4, BestNorm = 166
+* T = 4, Period = 8, P = 7, BestW = 384.5, BestNorm = 216
+  T = 2, Period = 4, BestW = 384.5, BestNorm = 216
+* T = 2, Period = 4, P = 2, BestW = 385.0, BestNorm = 120
+* T = 2, Period = 4, P = 3, BestW = 385.4, BestNorm = 130
+* T = 2, Period = 4, P = 4, BestW = 385.5, BestNorm = 126
+* T = 2, Period = 8, P = 5, BestW = 385.6, BestNorm = 134
+* T = 2, Period = 8, P = 6, BestW = 385.7, BestNorm = 140
+  T = 1, Period = 4, BestW = 385.7, BestNorm = 140
+* T = 1, Period = 4, P = 1, BestW = 385.8, BestNorm = 144
+* T = 1, Period = 4, P = 2, BestW = 386.0, BestNorm = 98
+* T = 1, Period = 4, P = 3, BestW = 386.1, BestNorm = 124
+* T = 1, Period = 4, P = 4, BestW = 386.2, BestNorm = 134
+* T = 1, Period = 8, P = 7, BestW = 386.3, BestNorm = 124
+Ascent: BestW = 386.3, Norm = 94
+Lower bound = 386.3, Ascent time = 0.03 sec.
+Generating candidates ... done
+Cand.min = 2, Cand.avg = 4.7, Cand.max = 5
+Preprocessing time = 0.03 sec.
+Cost = 678, Time = 0.00 sec. 
+Cost = 675, Time = 0.00 sec. 
+Cost = 674, Time = 0.00 sec. 
+Cost = 672, Time = 0.00 sec. 
+Cost = 669, Time = 0.00 sec. 
+Cost = 667, Time = 0.00 sec. 
+Cost = 665, Time = 0.00 sec. 
+Cost = 657, Time = 0.00 sec. 
+Cost = 655, Time = 0.00 sec. 
+Cost = 653, Time = 0.00 sec. 
+Cost = 651, Time = 0.00 sec. 
+Cost = 647, Time = 0.00 sec. 
+Cost = 643, Time = 0.00 sec. 
+Cost = 641, Time = 0.00 sec. 
+Cost = 639, Time = 0.00 sec. 
+Cost = 632, Time = 0.00 sec. 
+Cost = 631, Time = 0.00 sec. 
+Cost = 624, Time = 0.00 sec. 
+Cost = 615, Time = 0.00 sec. 
+Cost = 611, Time = 0.00 sec. 
+Cost = 605, Time = 0.00 sec. 
+Cost = 594, Time = 0.00 sec. 
+Cost = 590, Time = 0.00 sec. 
+Cost = 588, Time = 0.00 sec. 
+Cost = 584, Time = 0.00 sec. 
+Cost = 576, Time = 0.00 sec. 
+Cost = 574, Time = 0.00 sec. 
+Cost = 572, Time = 0.00 sec. 
+Cost = 571, Time = 0.00 sec. 
+Cost = 569, Time = 0.00 sec. 
+Cost = 567, Time = 0.00 sec. 
+Cost = 565, Time = 0.00 sec. 
+Cost = 563, Time = 0.00 sec. 
+Cost = 553, Time = 0.00 sec. 
+Cost = 551, Time = 0.00 sec. 
+Cost = 549, Time = 0.00 sec. 
+#100: Time = 0.00 sec.
+Cost = 547, Time = 0.00 sec. 
+Cost = 545, Time = 0.00 sec. 
+Cost = 543, Time = 0.00 sec. 
+Cost = 541, Time = 0.00 sec. 
+Cost = 536, Time = 0.00 sec. 
+Cost = 534, Time = 0.00 sec. 
+Cost = 531, Time = 0.00 sec. 
+Cost = 514, Time = 0.00 sec. 
+Cost = 512, Time = 0.00 sec. 
+Cost = 510, Time = 0.00 sec. 
+Cost = 508, Time = 0.00 sec. 
+Cost = 506, Time = 0.00 sec. 
+Cost = 504, Time = 0.00 sec. 
+Cost = 502, Time = 0.00 sec. 
+Cost = 498, Time = 0.00 sec. 
+Cost = 496, Time = 0.00 sec. 
+Cost = 494, Time = 0.00 sec. 
+Cost = 492, Time = 0.00 sec. 
+Cost = 490, Time = 0.00 sec. 
+Cost = 488, Time = 0.00 sec. 
+Cost = 486, Time = 0.00 sec. 
+Cost = 475, Time = 0.00 sec. 
+Cost = 471, Time = 0.00 sec. 
+Cost = 467, Time = 0.00 sec. 
+Cost = 460, Time = 0.00 sec. 
+Cost = 458, Time = 0.00 sec. 
+#200: Time = 0.00 sec.
+Cost = 457, Time = 0.00 sec. 
+Cost = 455, Time = 0.00 sec. 
+Cost = 451, Time = 0.00 sec. 
+Cost = 450, Time = 0.00 sec. 
+Cost = 447, Time = 0.00 sec. 
+Cost = 443, Time = 0.00 sec. 
+Cost = 441, Time = 0.00 sec. 
+Cost = 439, Time = 0.00 sec. 
+Cost = 437, Time = 0.00 sec. 
+Cost = 435, Time = 0.00 sec. 
+Cost = 433, Time = 0.00 sec. 
+Cost = 431, Time = 0.00 sec. 
+Cost = 429, Time = 0.00 sec. 
+Cost = 427, Time = 0.00 sec. 
+Cost = 419, Time = 0.00 sec. 
+Cost = 417, Time = 0.00 sec. 
+Cost = 411, Time = 0.00 sec. 
+Cost = 403, Time = 0.00 sec. 
+Cost = 401, Time = 0.00 sec. 
+Cost = 393, Time = 0.00 sec. 
+#300: Time = 0.00 sec.
+Cost = 391, Time = 0.00 sec. 
+Cost = 389, Time = 0.00 sec. 
+Cost = 387, Time = 0.00 sec. 
+#400: Time = 0.00 sec.
+* 1: Cost = 387, Time = 0.00 sec. 
+  2: Cost = 387, Time = 0.00 sec.
+  3: Cost = 387, Time = 0.01 sec.
+  4: Cost = 387, Time = 0.01 sec.
+  5: Cost = 387, Time = 0.01 sec.
+  6: Cost = 387, Time = 0.01 sec.
+  7: Cost = 387, Time = 0.01 sec.
+  8: Cost = 387, Time = 0.01 sec.
+  9: Cost = 387, Time = 0.02 sec.
+  10: Cost = 387, Time = 0.02 sec.
+  11: Cost = 387, Time = 0.02 sec.
+  12: Cost = 387, Time = 0.02 sec.
+  13: Cost = 387, Time = 0.02 sec.
+  14: Cost = 387, Time = 0.03 sec.
+  15: Cost = 387, Time = 0.03 sec.
+  16: Cost = 387, Time = 0.03 sec.
+  17: Cost = 387, Time = 0.03 sec.
+  18: Cost = 387, Time = 0.03 sec.
+  19: Cost = 387, Time = 0.04 sec.
+  20: Cost = 387, Time = 0.04 sec.
+  21: Cost = 387, Time = 0.04 sec.
+  22: Cost = 387, Time = 0.04 sec.
+  23: Cost = 387, Time = 0.04 sec.
+  24: Cost = 387, Time = 0.04 sec.
+  25: Cost = 387, Time = 0.04 sec.
+  26: Cost = 387, Time = 0.04 sec.
+  27: Cost = 387, Time = 0.04 sec.
+  28: Cost = 387, Time = 0.04 sec.
+  29: Cost = 387, Time = 0.05 sec.
+  30: Cost = 387, Time = 0.05 sec.
+  31: Cost = 387, Time = 0.05 sec.
+  32: Cost = 387, Time = 0.05 sec.
+  33: Cost = 387, Time = 0.05 sec.
+  34: Cost = 387, Time = 0.05 sec.
+  35: Cost = 387, Time = 0.05 sec.
+  36: Cost = 387, Time = 0.05 sec.
+  37: Cost = 387, Time = 0.05 sec.
+  38: Cost = 387, Time = 0.05 sec.
+  39: Cost = 387, Time = 0.05 sec.
+  40: Cost = 387, Time = 0.06 sec.
+  41: Cost = 387, Time = 0.06 sec.
+  42: Cost = 387, Time = 0.06 sec.
+  43: Cost = 387, Time = 0.06 sec.
+  44: Cost = 387, Time = 0.06 sec.
+  45: Cost = 387, Time = 0.06 sec.
+  46: Cost = 387, Time = 0.06 sec.
+  47: Cost = 387, Time = 0.07 sec.
+  48: Cost = 387, Time = 0.07 sec.
+  49: Cost = 387, Time = 0.07 sec.
+  50: Cost = 387, Time = 0.07 sec.
+  51: Cost = 387, Time = 0.08 sec.
+  52: Cost = 387, Time = 0.08 sec.
+  53: Cost = 387, Time = 0.08 sec.
+  54: Cost = 387, Time = 0.08 sec.
+  55: Cost = 387, Time = 0.08 sec.
+  56: Cost = 387, Time = 0.08 sec.
+  57: Cost = 387, Time = 0.08 sec.
+  58: Cost = 387, Time = 0.09 sec.
+  59: Cost = 387, Time = 0.09 sec.
+  60: Cost = 387, Time = 0.09 sec.
+  61: Cost = 387, Time = 0.09 sec.
+  62: Cost = 387, Time = 0.09 sec.
+  63: Cost = 387, Time = 0.09 sec.
+  64: Cost = 387, Time = 0.09 sec.
+  65: Cost = 387, Time = 0.10 sec.
+  66: Cost = 387, Time = 0.10 sec.
+  67: Cost = 387, Time = 0.10 sec.
+  68: Cost = 387, Time = 0.10 sec.
+  69: Cost = 387, Time = 0.10 sec.
+  70: Cost = 387, Time = 0.10 sec.
+  71: Cost = 387, Time = 0.11 sec.
+  72: Cost = 387, Time = 0.11 sec.
+  73: Cost = 387, Time = 0.11 sec.
+  74: Cost = 387, Time = 0.11 sec.
+  75: Cost = 387, Time = 0.11 sec.
+  76: Cost = 387, Time = 0.11 sec.
+  77: Cost = 387, Time = 0.11 sec.
+  78: Cost = 387, Time = 0.12 sec.
+  79: Cost = 387, Time = 0.12 sec.
+  80: Cost = 387, Time = 0.12 sec.
+  81: Cost = 387, Time = 0.12 sec.
+  82: Cost = 387, Time = 0.12 sec.
+  83: Cost = 387, Time = 0.12 sec.
+  84: Cost = 387, Time = 0.12 sec.
+  85: Cost = 387, Time = 0.12 sec.
+  86: Cost = 387, Time = 0.12 sec.
+  87: Cost = 387, Time = 0.12 sec.
+  88: Cost = 387, Time = 0.12 sec.
+  89: Cost = 387, Time = 0.13 sec.
+  90: Cost = 387, Time = 0.13 sec.
+  91: Cost = 387, Time = 0.13 sec.
+  92: Cost = 387, Time = 0.13 sec.
+  93: Cost = 387, Time = 0.13 sec.
+  94: Cost = 387, Time = 0.13 sec.
+  95: Cost = 387, Time = 0.13 sec.
+  96: Cost = 387, Time = 0.13 sec.
+  97: Cost = 387, Time = 0.14 sec.
+  98: Cost = 387, Time = 0.14 sec.
+  99: Cost = 387, Time = 0.14 sec.
+  100: Cost = 387, Time = 0.14 sec.
+  101: Cost = 387, Time = 0.14 sec.
+  102: Cost = 387, Time = 0.14 sec.
+  103: Cost = 387, Time = 0.14 sec.
+  104: Cost = 387, Time = 0.14 sec.
+  105: Cost = 387, Time = 0.14 sec.
+  106: Cost = 387, Time = 0.14 sec.
+  107: Cost = 387, Time = 0.14 sec.
+  108: Cost = 387, Time = 0.14 sec.
+  109: Cost = 387, Time = 0.14 sec.
+  110: Cost = 387, Time = 0.14 sec.
+  111: Cost = 387, Time = 0.14 sec.
+  112: Cost = 387, Time = 0.15 sec.
+  113: Cost = 387, Time = 0.15 sec.
+  114: Cost = 387, Time = 0.15 sec.
+  115: Cost = 387, Time = 0.15 sec.
+  116: Cost = 387, Time = 0.15 sec.
+  117: Cost = 387, Time = 0.15 sec.
+  118: Cost = 388, Time = 0.15 sec.
+  119: Cost = 387, Time = 0.16 sec.
+  120: Cost = 387, Time = 0.16 sec.
+  121: Cost = 387, Time = 0.16 sec.
+  122: Cost = 387, Time = 0.16 sec.
+  123: Cost = 387, Time = 0.16 sec.
+  124: Cost = 387, Time = 0.16 sec.
+  125: Cost = 387, Time = 0.16 sec.
+  126: Cost = 387, Time = 0.16 sec.
+  127: Cost = 387, Time = 0.16 sec.
+  128: Cost = 387, Time = 0.17 sec.
+  129: Cost = 387, Time = 0.17 sec.
+  130: Cost = 387, Time = 0.17 sec.
+  131: Cost = 387, Time = 0.17 sec.
+  132: Cost = 387, Time = 0.17 sec.
+  133: Cost = 387, Time = 0.17 sec.
+  134: Cost = 387, Time = 0.17 sec.
+  135: Cost = 387, Time = 0.17 sec.
+  136: Cost = 387, Time = 0.17 sec.
+  137: Cost = 387, Time = 0.18 sec.
+  138: Cost = 387, Time = 0.18 sec.
+  139: Cost = 387, Time = 0.18 sec.
+  140: Cost = 387, Time = 0.18 sec.
+  141: Cost = 387, Time = 0.18 sec.
+  142: Cost = 387, Time = 0.18 sec.
+  143: Cost = 387, Time = 0.18 sec.
+  144: Cost = 387, Time = 0.18 sec.
+  145: Cost = 387, Time = 0.18 sec.
+  146: Cost = 387, Time = 0.19 sec.
+  147: Cost = 387, Time = 0.19 sec.
+  148: Cost = 387, Time = 0.19 sec.
+  149: Cost = 387, Time = 0.19 sec.
+  150: Cost = 387, Time = 0.19 sec.
+  151: Cost = 387, Time = 0.19 sec.
+  152: Cost = 387, Time = 0.20 sec.
+  153: Cost = 387, Time = 0.20 sec.
+  154: Cost = 387, Time = 0.20 sec.
+  155: Cost = 387, Time = 0.20 sec.
+  156: Cost = 387, Time = 0.20 sec.
+  157: Cost = 387, Time = 0.20 sec.
+  158: Cost = 387, Time = 0.20 sec.
+  159: Cost = 387, Time = 0.20 sec.
+  160: Cost = 387, Time = 0.20 sec.
+  161: Cost = 387, Time = 0.20 sec.
+  162: Cost = 387, Time = 0.21 sec.
+  163: Cost = 387, Time = 0.21 sec.
+  164: Cost = 387, Time = 0.21 sec.
+  165: Cost = 387, Time = 0.21 sec.
+  166: Cost = 387, Time = 0.21 sec.
+  167: Cost = 387, Time = 0.21 sec.
+  168: Cost = 387, Time = 0.22 sec.
+  169: Cost = 387, Time = 0.22 sec.
+  170: Cost = 387, Time = 0.22 sec.
+  171: Cost = 387, Time = 0.22 sec.
+  172: Cost = 387, Time = 0.22 sec.
+  173: Cost = 387, Time = 0.22 sec.
+  174: Cost = 387, Time = 0.22 sec.
+  175: Cost = 387, Time = 0.23 sec.
+  176: Cost = 387, Time = 0.23 sec.
+  177: Cost = 387, Time = 0.23 sec.
+  178: Cost = 387, Time = 0.23 sec.
+  179: Cost = 387, Time = 0.23 sec.
+  180: Cost = 387, Time = 0.23 sec.
+  181: Cost = 387, Time = 0.23 sec.
+  182: Cost = 387, Time = 0.23 sec.
+  183: Cost = 387, Time = 0.23 sec.
+  184: Cost = 387, Time = 0.24 sec.
+  185: Cost = 387, Time = 0.24 sec.
+  186: Cost = 387, Time = 0.24 sec.
+  187: Cost = 387, Time = 0.24 sec.
+  188: Cost = 387, Time = 0.24 sec.
+  189: Cost = 387, Time = 0.24 sec.
+  190: Cost = 387, Time = 0.24 sec.
+  191: Cost = 387, Time = 0.24 sec.
+  192: Cost = 387, Time = 0.25 sec.
+  193: Cost = 387, Time = 0.25 sec.
+  194: Cost = 387, Time = 0.25 sec.
+  195: Cost = 387, Time = 0.25 sec.
+  196: Cost = 387, Time = 0.25 sec.
+  197: Cost = 387, Time = 0.25 sec.
+  198: Cost = 387, Time = 0.25 sec.
+  199: Cost = 387, Time = 0.25 sec.
+  200: Cost = 387, Time = 0.25 sec.
+  201: Cost = 387, Time = 0.25 sec.
+  202: Cost = 387, Time = 0.25 sec.
+  203: Cost = 387, Time = 0.25 sec.
+  204: Cost = 387, Time = 0.25 sec.
+  205: Cost = 387, Time = 0.26 sec.
+  206: Cost = 387, Time = 0.26 sec.
+  207: Cost = 387, Time = 0.26 sec.
+  208: Cost = 387, Time = 0.26 sec.
+  209: Cost = 387, Time = 0.26 sec.
+  210: Cost = 387, Time = 0.26 sec.
+  211: Cost = 387, Time = 0.26 sec.
+  212: Cost = 387, Time = 0.26 sec.
+  213: Cost = 387, Time = 0.26 sec.
+  214: Cost = 387, Time = 0.26 sec.
+  215: Cost = 387, Time = 0.26 sec.
+  216: Cost = 387, Time = 0.27 sec.
+  217: Cost = 387, Time = 0.27 sec.
+  218: Cost = 387, Time = 0.27 sec.
+  219: Cost = 387, Time = 0.27 sec.
+  220: Cost = 387, Time = 0.27 sec.
+  221: Cost = 387, Time = 0.27 sec.
+  222: Cost = 387, Time = 0.27 sec.
+  223: Cost = 387, Time = 0.28 sec.
+  224: Cost = 387, Time = 0.28 sec.
+  225: Cost = 387, Time = 0.28 sec.
+  226: Cost = 387, Time = 0.28 sec.
+  227: Cost = 387, Time = 0.28 sec.
+  228: Cost = 387, Time = 0.28 sec.
+  229: Cost = 387, Time = 0.28 sec.
+  230: Cost = 387, Time = 0.29 sec.
+  231: Cost = 387, Time = 0.29 sec.
+  232: Cost = 387, Time = 0.29 sec.
+  233: Cost = 387, Time = 0.29 sec.
+  234: Cost = 387, Time = 0.29 sec.
+  235: Cost = 387, Time = 0.29 sec.
+  236: Cost = 387, Time = 0.29 sec.
+  237: Cost = 387, Time = 0.29 sec.
+  238: Cost = 387, Time = 0.30 sec.
+  239: Cost = 387, Time = 0.30 sec.
+  240: Cost = 387, Time = 0.30 sec.
+  241: Cost = 387, Time = 0.30 sec.
+  242: Cost = 387, Time = 0.30 sec.
+  243: Cost = 387, Time = 0.30 sec.
+  244: Cost = 387, Time = 0.30 sec.
+  245: Cost = 387, Time = 0.30 sec.
+  246: Cost = 387, Time = 0.31 sec.
+  247: Cost = 387, Time = 0.31 sec.
+  248: Cost = 387, Time = 0.31 sec.
+  249: Cost = 387, Time = 0.31 sec.
+  250: Cost = 387, Time = 0.31 sec.
+  251: Cost = 387, Time = 0.31 sec.
+  252: Cost = 387, Time = 0.31 sec.
+  253: Cost = 387, Time = 0.32 sec.
+  254: Cost = 387, Time = 0.32 sec.
+  255: Cost = 387, Time = 0.32 sec.
+  256: Cost = 387, Time = 0.32 sec.
+  257: Cost = 387, Time = 0.32 sec.
+  258: Cost = 387, Time = 0.32 sec.
+  259: Cost = 387, Time = 0.32 sec.
+  260: Cost = 387, Time = 0.32 sec.
+  261: Cost = 387, Time = 0.32 sec.
+  262: Cost = 387, Time = 0.32 sec.
+  263: Cost = 387, Time = 0.33 sec.
+  264: Cost = 387, Time = 0.33 sec.
+  265: Cost = 387, Time = 0.33 sec.
+  266: Cost = 387, Time = 0.33 sec.
+  267: Cost = 387, Time = 0.33 sec.
+  268: Cost = 387, Time = 0.33 sec.
+  269: Cost = 387, Time = 0.33 sec.
+  270: Cost = 387, Time = 0.33 sec.
+Run 1: Cost = 387, Time = 0.33 sec. 
+
+Successes/Runs = 0/1
+Cost.min = 387, Cost.avg = 387.00, Cost.max = 387
+Gap.min = 0.0000%, Gap.avg = 0.0000%, Gap.max = 0.0000%
+Trials.min = 270, Trials.avg = 270.0, Trials.max = 270
+Time.min = 0.33 sec., Time.avg = 0.33 sec., Time.max = 0.33 sec.
