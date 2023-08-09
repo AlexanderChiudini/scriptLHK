@@ -6,7 +6,7 @@ import java.util.regex.*;
 public class TerminalExecutor {
     public static void main(String[] args) {
     	String directory = new File("").getAbsolutePath(); 
-    	
+    	System.out.println(directory);
         File folder = new File("./tsp");
         File[] listOfFiles = folder.listFiles();
 
@@ -21,10 +21,10 @@ public class TerminalExecutor {
             for (File file : listOfFiles) {
                 if (file.isFile()) {
                     for (int i = 0; i < 10; i++) {
-                    	File filePY = new File(directory + "/lkh/lkhcli.py").getAbsoluteFile();
+                    	File filePY = new File(directory + "/bin/scriptLHK/lkh").getAbsoluteFile();
                     	filePY.setExecutable(true);
 
-                        executeCommand("python3 " + directory + "/lkh/lkhcli.py --instance " + file.getAbsolutePath() + " >> _out.txt");
+                        executeCommand("python3 " + directory + "/bin/scriptLHK/lkh/lkhcli.py --instance " + file.getAbsolutePath() + " >> _out.txt");
                         String costMinValue = extractCostMin("_out.txt");
                         writer.write(file.getName() + "\t" + i + "\t" + "" + "\t" + costMinValue + "\n");
                     }
